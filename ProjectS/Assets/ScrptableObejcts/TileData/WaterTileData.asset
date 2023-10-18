@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52e03fdd5e8851429d24b1d95f38cf8, type: 3}
+  m_Name: WaterTileData
+  m_EditorClassIdentifier: 
+  GroundTiles:
+  - {fileID: 11400000, guid: e7aeabc1c084b644197139ca24ec2adf, type: 2}
+  walkingSpeed: 0.2
+  isWalkable: 1
+  isSafe: 0
