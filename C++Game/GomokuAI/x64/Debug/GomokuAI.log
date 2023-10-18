@@ -1,0 +1,21 @@
+﻿  Chess.cpp
+D:\Coding\WorkShopVS\GomokuAI\GomokuAI\Chess.cpp(64,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Coding\WorkShopVS\GomokuAI\GomokuAI\Chess.cpp(64,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Coding\WorkShopVS\GomokuAI\GomokuAI\Chess.cpp(65,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Coding\WorkShopVS\GomokuAI\GomokuAI\Chess.cpp(65,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Coding\WorkShopVS\GomokuAI\GomokuAI\Chess.cpp(80,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Coding\WorkShopVS\GomokuAI\GomokuAI\Chess.cpp(81,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Coding\WorkShopVS\GomokuAI\GomokuAI\Chess.cpp(82,18): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Coding\WorkShopVS\GomokuAI\GomokuAI\Chess.cpp(83,18): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Coding\WorkShopVS\GomokuAI\GomokuAI\Chess.cpp(84,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Coding\WorkShopVS\GomokuAI\GomokuAI\Chess.cpp(92,13): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Coding\WorkShopVS\GomokuAI\GomokuAI\Chess.cpp(105,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Coding\WorkShopVS\GomokuAI\GomokuAI\Chess.cpp(107,13): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Coding\WorkShopVS\GomokuAI\GomokuAI\Chess.cpp(121,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Coding\WorkShopVS\GomokuAI\GomokuAI\Chess.cpp(122,13): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Coding\WorkShopVS\GomokuAI\GomokuAI\Chess.cpp(135,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Coding\WorkShopVS\GomokuAI\GomokuAI\Chess.cpp(136,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Coding\WorkShopVS\GomokuAI\GomokuAI\Chess.cpp(137,13): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Coding\WorkShopVS\GomokuAI\GomokuAI\Chess.cpp(156,8): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Coding\WorkShopVS\GomokuAI\GomokuAI\Chess.cpp(157,8): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  GomokuAI.vcxproj -> D:\Coding\WorkShopVS\GomokuAI\GomokuAI\x64\Debug\GomokuAI.exe

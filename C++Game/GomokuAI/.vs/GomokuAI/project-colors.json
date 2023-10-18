@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3ba6a9fd-e6c8-4aee-94af-a0a9f78efbde": {
+      "ProjectGuid": "3ba6a9fd-e6c8-4aee-94af-a0a9f78efbde",
+      "DisplayName": "GomokuAI",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
