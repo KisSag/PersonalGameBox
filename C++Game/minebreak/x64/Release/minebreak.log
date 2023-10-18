@@ -1,0 +1,7 @@
+﻿  minebreak.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+D:\Coding\WorkShopVS\test_minebreak\minebreak\minebreak.cpp(167): warning C4715: 'gameEnd': not all control paths return a value
+  All 19 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  minebreak.vcxproj -> D:\Coding\WorkShopVS\test_minebreak\minebreak\x64\Release\minebreak.exe

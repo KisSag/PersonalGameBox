@@ -1,0 +1,3 @@
+﻿  minebreak.cpp
+D:\Coding\WorkShopVS\test_minebreak\minebreak\minebreak.cpp(167): warning C4715: 'gameEnd': not all control paths return a value
+  minebreak.vcxproj -> D:\Coding\WorkShopVS\test_minebreak\minebreak\x64\Debug\minebreak.exe

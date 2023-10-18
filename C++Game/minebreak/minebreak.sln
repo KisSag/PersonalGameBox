@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "minebreak", "minebreak.vcxproj", "{4B6DCED0-F416-4A3D-85C3-66CB8CC141AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B6DCED0-F416-4A3D-85C3-66CB8CC141AC}.Debug|x64.ActiveCfg = Debug|x64
+		{4B6DCED0-F416-4A3D-85C3-66CB8CC141AC}.Debug|x64.Build.0 = Debug|x64
+		{4B6DCED0-F416-4A3D-85C3-66CB8CC141AC}.Debug|x86.ActiveCfg = Debug|Win32
+		{4B6DCED0-F416-4A3D-85C3-66CB8CC141AC}.Debug|x86.Build.0 = Debug|Win32
+		{4B6DCED0-F416-4A3D-85C3-66CB8CC141AC}.Release|x64.ActiveCfg = Release|x64
+		{4B6DCED0-F416-4A3D-85C3-66CB8CC141AC}.Release|x64.Build.0 = Release|x64
+		{4B6DCED0-F416-4A3D-85C3-66CB8CC141AC}.Release|x86.ActiveCfg = Release|Win32
+		{4B6DCED0-F416-4A3D-85C3-66CB8CC141AC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F93FFE35-922F-4DD0-9587-5FC62ABE44D7}
+	EndGlobalSection
+EndGlobal
