@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
-public class GroundMapManager : MonoBehaviour
+public class ConnectTileAndData : MonoBehaviour
 {
 
     [SerializeField] Tilemap GroundMap;
@@ -46,5 +46,10 @@ public class GroundMapManager : MonoBehaviour
 
             Debug.Log(gridPos + " " + clickedTile + " " + DataDictionaryOfTile[clickedTile].isSafe);
         }
+    }
+
+    public bool isWalkable(TileBase tile)
+    {
+        return DataDictionaryOfTile[tile].isWalkable;
     }
 }

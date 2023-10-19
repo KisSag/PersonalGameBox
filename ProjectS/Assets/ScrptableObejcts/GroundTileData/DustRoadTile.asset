@@ -10,10 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b52e03fdd5e8851429d24b1d95f38cf8, type: 3}
-  m_Name: GrassTileData
+  m_Name: DustRoadTile
   m_EditorClassIdentifier: 
   GroundTiles:
-  - {fileID: 11400000, guid: 1bf0c17e43f3eb34fb551973214a2401, type: 2}
-  walkingSpeed: 0.9
+  - {fileID: 11400000, guid: e1acf7bc5e9aae04f9576e569dfb614d, type: 2}
+  - {fileID: 11400000, guid: ed870d92d3fa80640a6404505b4c1e6c, type: 2}
+  walkingSpeed: 1
   isWalkable: 1
   isSafe: 0
+  tilename: 
+  description: "\u6CE5\u6CDE\u7684\u9053\u8DEF\uFF0C\u53EF\u4EE5\u770B\u5230\u8F66\u8F99\u548C\u884C\u4EBA\u7684\u75D5\u8FF9"

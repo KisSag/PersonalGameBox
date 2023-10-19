@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b52e03fdd5e8851429d24b1d95f38cf8, type: 3}
-  m_Name: DustRoadTile
+  m_Name: ForestTileData
   m_EditorClassIdentifier: 
   GroundTiles:
-  - {fileID: 11400000, guid: e1acf7bc5e9aae04f9576e569dfb614d, type: 2}
-  - {fileID: 11400000, guid: ed870d92d3fa80640a6404505b4c1e6c, type: 2}
-  walkingSpeed: 1
+  - {fileID: 11400000, guid: 3bc0c6bcc839c904eb59dca7756d6345, type: 2}
+  walkingSpeed: 0.3
   isWalkable: 1
   isSafe: 0
+  tilename: 
+  description: "\u8302\u5BC6\u7684\u6811\u6797"

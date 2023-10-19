@@ -15,5 +15,7 @@ MonoBehaviour:
   GroundTiles:
   - {fileID: 11400000, guid: e7aeabc1c084b644197139ca24ec2adf, type: 2}
   walkingSpeed: 0.2
-  isWalkable: 1
+  isWalkable: 0
   isSafe: 0
+  tilename: 
+  description: "\u6E05\u6F88\u7684\u6D45\u6C34\uFF0C\u9690\u7EA6\u53EF\u4EE5\u770B\u5230\u6C34\u4E2D\u7684\u690D\u7269\u548C\u9C7C\u7C7B\u3002"
