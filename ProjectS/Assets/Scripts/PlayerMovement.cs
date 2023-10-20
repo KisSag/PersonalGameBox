@@ -12,7 +12,7 @@ public class PlayerMovement : MonoBehaviour
     public Tilemap GroundMap;
     Vector2 moveInput;
 
-    [SerializeField] ConnectTileAndData tileData;
+    [SerializeField] TileDataCenter tileData;
 
     void Start()
     {

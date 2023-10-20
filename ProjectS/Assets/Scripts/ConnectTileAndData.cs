@@ -6,18 +6,20 @@ public class ConnectTileAndData : MonoBehaviour
 {
 
     [SerializeField] Tilemap GroundMap;
+    [SerializeField] TileDataCenter TileDataCenter;
     [SerializeField] List<GroundTileData> GroundTileDatas;
 
-    private Dictionary<TileBase, GroundTileData> DataDictionaryOfTile;
+    Dictionary<TileBase, GroundTileData> DataDictionaryOfTile;
     void Awake()
     {
         addDataToTiles();
+        getTileDataDictionary(DataDictionaryOfTile);
     }
 
     // Update is called once per frame
     void Update()
     {
-        tileInfoDebuger();
+        //tileInfoDebuger();
     }
 
 
@@ -33,6 +35,8 @@ public class ConnectTileAndData : MonoBehaviour
                 DataDictionaryOfTile.Add(tile, GroundTileData);
             }
         }
+
+        
     }
 
     void tileInfoDebuger()//this is the method to check the data of tiles
@@ -48,8 +52,9 @@ public class ConnectTileAndData : MonoBehaviour
         }
     }
 
-    public bool isWalkable(TileBase tile)
+    //这个方法添加地块的数据词典到数据库。
+    public void getTileDataDictionary(Dictionary<TileBase, GroundTileData> TILEDATA)
     {
-        return DataDictionaryOfTile[tile].isWalkable;
+        TileDataCenter.addDATA(TILEDATA);
     }
 }

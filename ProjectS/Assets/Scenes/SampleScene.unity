@@ -231,7 +231,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GroundMap: {fileID: 1973260888}
-  tileData: {fileID: 941879420}
+  tileData: {fileID: 941879422}
 --- !u!114 &238130605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -340,6 +340,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -413,6 +414,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa30eefb8a49fec44b813cf6cc853c33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 238130603}
 --- !u!1 &941879419
 GameObject:
   m_ObjectHideFlags: 0
@@ -423,6 +437,7 @@ GameObject:
   m_Component:
   - component: {fileID: 941879421}
   - component: {fileID: 941879420}
+  - component: {fileID: 941879422}
   m_Layer: 0
   m_Name: GroundMapControlCenter
   m_TagString: Untagged
@@ -443,6 +458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GroundMap: {fileID: 1973260888}
+  TileDataCenter: {fileID: 941879422}
   GroundTileDatas:
   - {fileID: 11400000, guid: ba10527a36899d144bdb0984a80e7525, type: 2}
   - {fileID: 11400000, guid: 5ae2aad554607824485bff63577ed60d, type: 2}
@@ -457,13 +473,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 941879419}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.27, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &941879422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941879419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03b103d614b70374995bcd4dcd993d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connectAction: {fileID: 941879420}
 --- !u!1 &1722560614
 GameObject:
   m_ObjectHideFlags: 0
