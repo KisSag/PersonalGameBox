@@ -17,5 +17,5 @@ MonoBehaviour:
   walkingSpeed: 0.3
   isWalkable: 1
   isSafe: 0
-  tilename: 
+  tilename: "\u6811\u6797"
   description: "\u8302\u5BC6\u7684\u6811\u6797"

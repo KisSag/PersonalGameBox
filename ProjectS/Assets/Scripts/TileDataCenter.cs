@@ -29,7 +29,7 @@ public class TileDataCenter : MonoBehaviour
         return TileDATA[tile].tilename;
     }
 
-    public string getDescription(TileBase tile)//获取名字
+    public string getDescription(TileBase tile)//获取描述
     {
         return TileDATA[tile].description;
     }

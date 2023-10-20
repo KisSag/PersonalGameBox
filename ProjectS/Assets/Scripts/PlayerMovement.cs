@@ -60,4 +60,13 @@ public class PlayerMovement : MonoBehaviour
         }
         return true;
     }
+
+    public TileBase getCurrentTile()//返回当前的地块
+    {
+        Vector3Int tilePos = GroundMap.WorldToCell(this.transform.position);
+        TileBase currentTile = GroundMap.GetTile(tilePos);
+        //Debug.Log(currentTile);
+
+        return currentTile;
+    }
 }

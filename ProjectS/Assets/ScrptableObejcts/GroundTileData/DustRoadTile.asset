@@ -18,5 +18,5 @@ MonoBehaviour:
   walkingSpeed: 1
   isWalkable: 1
   isSafe: 0
-  tilename: 
+  tilename: "\u6CE5\u6CDE\u7684\u4E61\u6751\u5C0F\u9053"
   description: "\u6CE5\u6CDE\u7684\u9053\u8DEF\uFF0C\u53EF\u4EE5\u770B\u5230\u8F66\u8F99\u548C\u884C\u4EBA\u7684\u75D5\u8FF9"
