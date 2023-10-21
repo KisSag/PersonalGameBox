@@ -12,7 +12,9 @@ public class TileInfoDisplay : MonoBehaviour
     [SerializeField] TileDataCenter tileData;
 
 
+    //链接UI
     [SerializeField] TextMeshProUGUI titleText;
+    [SerializeField] TextMeshProUGUI DescriptionText;
 
     TileBase currentTile;
     void Start()
@@ -24,8 +26,16 @@ public class TileInfoDisplay : MonoBehaviour
     void Update()
     {
         currentTile = playerLocation.getCurrentTile();
-        Debug.Log(currentTile);
+        //Debug.Log(currentTile);
+
+        //更新信息
         displayTile(currentTile);
+        displayDescription(currentTile);
+    }
+
+    void displayDescription(TileBase currentTile)
+    {
+        DescriptionText.text = tileData.getDescription(currentTile);
     }
 
     void displayTile(TileBase currentTile)

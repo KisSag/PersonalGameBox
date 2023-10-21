@@ -60,9 +60,9 @@
     <Compile Include="Assets\ScrptableObejcts\GroundTileData\GroundTileData.cs" />
     <Compile Include="Assets\Scripts\WindowsSize.cs" />
     <Compile Include="Assets\Scripts\CameraAction.cs" />
+    <Compile Include="Assets\Scripts\TileInfoDisplay.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\ConnectTileAndData.cs" />
-    <Compile Include="Assets\Scripts\TileInfoDisplay.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
