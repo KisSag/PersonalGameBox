@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\ConnectTileAndData.cs" />
     <Compile Include="Assets\Scripts\EnvironmentData.cs" />
     <Compile Include="Assets\Scripts\TimeData.cs" />
+    <Compile Include="Assets\Scripts\TimeUIDisplay.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

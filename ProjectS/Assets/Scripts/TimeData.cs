@@ -31,13 +31,13 @@ public class TimeData : MonoBehaviour
             MonthInNumber += 1;
         }
 
-        if (hour > 24)//纠正小时
+        if (hour >= 24)//纠正小时
         {
             hour = hour - 24;
             DayInNumber += 1;
         }
 
-        if (minute > 60)//纠正分钟
+        if (minute >= 60)//纠正分钟
         {
             minute = minute - 60;
             hour += 1;
@@ -66,7 +66,7 @@ public class TimeData : MonoBehaviour
     }
     public string getMonth_inName() //返回月份的名字
     {
-        return Month[MonthInNumber];
+        return Month[MonthInNumber - 1];
     }
     public int getDay_inNumber()  //返回天的数字
     {
@@ -74,7 +74,17 @@ public class TimeData : MonoBehaviour
     }
     public string getDay_inName() //返回天的名字
     {
-        return DayOfWeek[DayInNumber];
+        int dname = DayInNumber % 7;
+
+        if(dname < 1 || dname > 6)//保险
+        {
+            return "Error";
+        }else if(dname == 0)
+        {
+            dname = 7;
+        }
+
+        return DayOfWeek[dname - 1];
     }
     public int getHour() //返回小时
     {

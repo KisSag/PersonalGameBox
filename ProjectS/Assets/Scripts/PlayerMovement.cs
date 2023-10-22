@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     Vector2 moveInput;
 
     [SerializeField] TileDataCenter tileData;
+    [SerializeField] TimeData timeData;
 
     void Start()
     {
@@ -36,8 +37,11 @@ public class PlayerMovement : MonoBehaviour
         if (ismoveAble(moveInput))
         {
             this.transform.position += (Vector3)moveInput;
+            Debug.Log("move");
         }
-        
+
+        timeData.addMinute(15);
+
     }
 
     bool ismoveAble(Vector2 moveInput)//检测能否移动到下一个地块 条件：1.没有越界 2.是可通行地块
