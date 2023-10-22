@@ -34,7 +34,7 @@ public class TileDataCenter : MonoBehaviour
         return TileDATA[tile].description;
     }
 
-    public bool getSafe(TileBase tile)//是否安全(目前安全的定义是是否会刷怪)
+    public float getSafe(TileBase tile)//是否安全(目前安全的定义是是否会刷怪)
     {
         return TileDATA[tile].isSafe;
     }
@@ -47,6 +47,11 @@ public class TileDataCenter : MonoBehaviour
     public float getSpeed(TileBase tile)//获取速度
     {
         return TileDATA[tile].walkingSpeed;
+    }
+
+    public float getWetness(TileBase tile)
+    {
+        return TileDATA[tile].wetness;
     }
 
 }

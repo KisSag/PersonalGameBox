@@ -15,8 +15,21 @@ public class TileInfoDisplay : MonoBehaviour
     //链接UI
     [SerializeField] TextMeshProUGUI titleText;
     [SerializeField] TextMeshProUGUI DescriptionText;
+    [SerializeField] TextMeshProUGUI weatherText;
+    [SerializeField] TextMeshProUGUI temperatureText;
+    [SerializeField]
+    TextMeshProUGUI environmentSaftyText;
+    [SerializeField]
+    TextMeshProUGUI walkEffeciencyText;
+    [SerializeField]
+    TextMeshProUGUI wetnessText;
+    [SerializeField]
+    TextMeshProUGUI brightnessText;
+
 
     TileBase currentTile;
+
+
     void Start()
     {
         
@@ -31,6 +44,14 @@ public class TileInfoDisplay : MonoBehaviour
         //更新信息
         displayTile(currentTile);
         displayDescription(currentTile);
+        displayWalkEffeciency(currentTile);
+        displayWetness(currentTile);
+        displaySafty(currentTile);
+    }
+
+    void displayWetness(TileBase currentTile)
+    {
+        wetnessText.text = "潮湿度：" + tileData.getWetness(currentTile);
     }
 
     void displayDescription(TileBase currentTile)
@@ -42,5 +63,15 @@ public class TileInfoDisplay : MonoBehaviour
     {
         //Debug.Log(tileData.getName(currentTile));
         titleText.text = tileData.getName(currentTile);
+    }
+
+    void displayWalkEffeciency(TileBase currentTile)
+    {
+        walkEffeciencyText.text = "通行效率：" + tileData.getSpeed(currentTile);
+    }
+
+    void displaySafty(TileBase currentTile)
+    {
+        environmentSaftyText.text = "危险度：" + tileData.getSafe(currentTile);
     }
 }

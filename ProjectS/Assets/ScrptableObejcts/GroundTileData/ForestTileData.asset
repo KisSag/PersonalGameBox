@@ -16,6 +16,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3bc0c6bcc839c904eb59dca7756d6345, type: 2}
   walkingSpeed: 0.3
   isWalkable: 1
-  isSafe: 0
   tilename: "\u6811\u6797"
   description: "\u8302\u5BC6\u7684\u6811\u6797"
+  isSafe: 0.3
+  brightmultiplier: 0.8
+  wetness: 0

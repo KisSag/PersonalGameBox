@@ -16,6 +16,6 @@ public class WindowsSize : MonoBehaviour
         int width = Screen.width;
         int height = (width / 16) * 10;
 
-        Screen.SetResolution(width, height, false);
+        Screen.SetResolution(Screen.width, (Screen.width / 16) * 10, false);
     }
 }
