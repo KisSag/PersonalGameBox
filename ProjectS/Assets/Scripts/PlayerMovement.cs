@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] TileDataCenter tileData;
     [SerializeField] TimeData timeData;
 
+
     void Start()
     {
         
@@ -26,23 +27,26 @@ public class PlayerMovement : MonoBehaviour
     }
 
 
-
-    void OnMove(InputValue value)//检测移动按键是否按下
+    
+    public void OnMove(InputAction.CallbackContext ctx)//检测移动按键是否按下
     {
-        
-        moveInput = value.Get<Vector2>();
-        //Debug.Log(moveInput);
 
+        moveInput = ctx.ReadValue<Vector2>();
+        Debug.Log(moveInput);
 
-        if (ismoveAble(moveInput))
+        if (ctx.performed)
         {
-            this.transform.position += (Vector3)moveInput;
-            Debug.Log("move");
+            if (ismoveAble(moveInput))
+            {
+                this.transform.position += (Vector3)moveInput;
+                Debug.Log("move");
+
+                timeData.addMinute(15);
+
+            }
         }
-
-        timeData.addMinute(15);
-
     }
+    
 
     bool ismoveAble(Vector2 moveInput)//检测能否移动到下一个地块 条件：1.没有越界 2.是可通行地块
     {

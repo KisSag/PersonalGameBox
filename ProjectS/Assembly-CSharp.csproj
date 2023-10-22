@@ -59,13 +59,13 @@
     <Compile Include="Assets\Scripts\TileDataCenter.cs" />
     <Compile Include="Assets\ScrptableObejcts\GroundTileData\GroundTileData.cs" />
     <Compile Include="Assets\Scripts\WindowsSize.cs" />
+    <Compile Include="Assets\Scripts\TimeData.cs" />
     <Compile Include="Assets\Scripts\CameraAction.cs" />
+    <Compile Include="Assets\Scripts\TimeUIDisplay.cs" />
+    <Compile Include="Assets\Scripts\EnvironmentData.cs" />
     <Compile Include="Assets\Scripts\TileInfoDisplay.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\ConnectTileAndData.cs" />
-    <Compile Include="Assets\Scripts\EnvironmentData.cs" />
-    <Compile Include="Assets\Scripts\TimeData.cs" />
-    <Compile Include="Assets\Scripts\TimeUIDisplay.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
