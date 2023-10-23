@@ -248,6 +248,8 @@ GameObject:
   - component: {fileID: 238130606}
   - component: {fileID: 238130605}
   - component: {fileID: 238130604}
+  - component: {fileID: 238130609}
+  - component: {fileID: 238130608}
   m_Layer: 6
   m_Name: PlayerIcon
   m_TagString: Untagged
@@ -283,7 +285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Actions: {fileID: -944628639613478452, guid: 5f2831e7a39288a4aa5083850ebc0979, type: 3}
-  m_NotificationBehavior: 0
+  m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
@@ -294,7 +296,71 @@ MonoBehaviour:
   m_ControlsChangedEvent:
     m_PersistentCalls:
       m_Calls: []
-  m_ActionEvents: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 238130604}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: OnMove
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: aacc6682-8384-49eb-bff2-ba5b730e6d7d
+    m_ActionName: Player/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d6b2340a-67a8-40d9-8bca-9c54335e9425
+    m_ActionName: Player/Look[/Mouse/delta,/Pen/delta]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 089eedd3-ac09-41b1-ab03-e2e080cce852
+    m_ActionName: Player/Fire[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 83220768-f76a-4424-93d3-a14d2f494663
+    m_ActionName: UI/Navigate[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 05d1f9c1-cc7c-44c7-8274-49ce5ed4de89
+    m_ActionName: UI/Submit[/Keyboard/enter]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 72a67d28-9612-4c65-9c1c-448cf48a2ae5
+    m_ActionName: UI/Cancel[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a5b8b90f-9b98-4010-9631-9e56b512e0cf
+    m_ActionName: UI/Point[/Mouse/position,/Pen/position]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 85757225-740c-495c-9eeb-cf3ad5b05788
+    m_ActionName: UI/Click[/Mouse/leftButton,/Pen/tip]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f9487ba3-9c47-44e5-bd57-b746023e126a
+    m_ActionName: UI/ScrollWheel[/Mouse/scroll]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 99010bf9-3ceb-4c09-8a12-2f6624085b75
+    m_ActionName: UI/MiddleClick[/Mouse/middleButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 8c7a8cbb-ca9e-4526-a3c2-4648807b6c6e
+    m_ActionName: UI/RightClick[/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a1653efc-4ba3-46b7-b085-f8f7f242539f
+    m_ActionName: UI/TrackedDevicePosition
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 23d52c7b-a580-49fb-a7f7-b515694d9799
+    m_ActionName: UI/TrackedDeviceOrientation
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -367,6 +433,95 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &238130608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238130603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea32ea4dbf4a3db40abfb335aabf2a40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BackHairColor_main:
+  - serializedVersion: 2
+    rgba: 0
+  - serializedVersion: 2
+    rgba: 0
+  PatternType_BackHairMain: 
+  BackHairColor_top:
+  - serializedVersion: 2
+    rgba: 0
+  - serializedVersion: 2
+    rgba: 0
+  PatternType_BackHairTop: 
+  BackHairColor_down:
+  - serializedVersion: 2
+    rgba: 0
+  - serializedVersion: 2
+    rgba: 0
+  PatternType_BackHairDown: 
+  BackHairColor_inner:
+  - serializedVersion: 2
+    rgba: 0
+  - serializedVersion: 2
+    rgba: 0
+  PatternType_BackHairInner: 
+  BackHairLength: 0
+  BackHairStyle: 
+  FrontHairColor_main:
+  - serializedVersion: 2
+    rgba: 0
+  - serializedVersion: 2
+    rgba: 0
+  PatternType_FronHairMain: 
+  FronHairColor_top:
+  - serializedVersion: 2
+    rgba: 0
+  - serializedVersion: 2
+    rgba: 0
+  PatternType_FronHairTop: 
+  FronHairColor_down:
+  - serializedVersion: 2
+    rgba: 0
+  - serializedVersion: 2
+    rgba: 0
+  PatternType_FronHairDown: 
+  FronHairColor_inner:
+  - serializedVersion: 2
+    rgba: 0
+  - serializedVersion: 2
+    rgba: 0
+  PatternType_FronHairInner: 
+  FrontHairLength: 0
+  FrontHairStyle: 
+--- !u!114 &238130609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238130603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8808c73b183ed5e49aad20c292f4484f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name_player: 
+  gender: 
+  age: 0
+  height: 0
+  race:
+  - 
+  - 
+  body_Size: 0
+  femininity: 0
+  Mature: 0
+  muscleDef: 0
+  appearance: 0
+  hairProperties: {fileID: 238130608}
 --- !u!1 &244785687
 GameObject:
   m_ObjectHideFlags: 0

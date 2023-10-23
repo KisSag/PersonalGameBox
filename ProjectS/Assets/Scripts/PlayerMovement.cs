@@ -32,14 +32,14 @@ public class PlayerMovement : MonoBehaviour
     {
 
         moveInput = ctx.ReadValue<Vector2>();
-        Debug.Log(moveInput);
+        //Debug.Log(moveInput);
 
         if (ctx.performed)
         {
             if (ismoveAble(moveInput))
             {
                 this.transform.position += (Vector3)moveInput;
-                Debug.Log("move");
+                //Debug.Log("move");
 
                 timeData.addMinute(15);
 

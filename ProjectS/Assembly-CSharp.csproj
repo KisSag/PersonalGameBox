@@ -66,6 +66,8 @@
     <Compile Include="Assets\Scripts\TileInfoDisplay.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\ConnectTileAndData.cs" />
+    <Compile Include="Assets\Scripts\playerData.cs" />
+    <Compile Include="Assets\Scripts\hairProperties.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
