@@ -248,7 +248,6 @@ GameObject:
   - component: {fileID: 238130606}
   - component: {fileID: 238130605}
   - component: {fileID: 238130604}
-  - component: {fileID: 238130609}
   - component: {fileID: 238130608}
   m_Layer: 6
   m_Name: PlayerIcon
@@ -442,86 +441,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 238130603}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea32ea4dbf4a3db40abfb335aabf2a40, type: 3}
+  m_Script: {fileID: 11500000, guid: 64aa7e029a883c3409d55dd977ec72c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BackHairColor_main:
-  - serializedVersion: 2
-    rgba: 0
-  - serializedVersion: 2
-    rgba: 0
-  PatternType_BackHairMain: 
-  BackHairColor_top:
-  - serializedVersion: 2
-    rgba: 0
-  - serializedVersion: 2
-    rgba: 0
-  PatternType_BackHairTop: 
-  BackHairColor_down:
-  - serializedVersion: 2
-    rgba: 0
-  - serializedVersion: 2
-    rgba: 0
-  PatternType_BackHairDown: 
-  BackHairColor_inner:
-  - serializedVersion: 2
-    rgba: 0
-  - serializedVersion: 2
-    rgba: 0
-  PatternType_BackHairInner: 
-  BackHairLength: 0
-  BackHairStyle: 
-  FrontHairColor_main:
-  - serializedVersion: 2
-    rgba: 0
-  - serializedVersion: 2
-    rgba: 0
-  PatternType_FronHairMain: 
-  FronHairColor_top:
-  - serializedVersion: 2
-    rgba: 0
-  - serializedVersion: 2
-    rgba: 0
-  PatternType_FronHairTop: 
-  FronHairColor_down:
-  - serializedVersion: 2
-    rgba: 0
-  - serializedVersion: 2
-    rgba: 0
-  PatternType_FronHairDown: 
-  FronHairColor_inner:
-  - serializedVersion: 2
-    rgba: 0
-  - serializedVersion: 2
-    rgba: 0
-  PatternType_FronHairInner: 
-  FrontHairLength: 0
-  FrontHairStyle: 
---- !u!114 &238130609
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 238130603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8808c73b183ed5e49aad20c292f4484f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  name_player: 
-  gender: 
-  age: 0
-  height: 0
-  race:
-  - 
-  - 
-  body_Size: 0
-  femininity: 0
-  Mature: 0
-  muscleDef: 0
-  appearance: 0
-  hairProperties: {fileID: 238130608}
 --- !u!1 &244785687
 GameObject:
   m_ObjectHideFlags: 0

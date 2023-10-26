@@ -56,18 +56,27 @@
     <Analyzer Include="D:\Coding\VS\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\appearanceSystem\headProperties.cs" />
     <Compile Include="Assets\Scripts\TileDataCenter.cs" />
     <Compile Include="Assets\ScrptableObejcts\GroundTileData\GroundTileData.cs" />
     <Compile Include="Assets\Scripts\WindowsSize.cs" />
+    <Compile Include="Assets\Scripts\ColorDatabase.cs" />
     <Compile Include="Assets\Scripts\TimeData.cs" />
     <Compile Include="Assets\Scripts\CameraAction.cs" />
     <Compile Include="Assets\Scripts\TimeUIDisplay.cs" />
     <Compile Include="Assets\Scripts\EnvironmentData.cs" />
+    <Compile Include="Assets\Scripts\appearanceSystem\CharacterData.cs" />
+    <Compile Include="Assets\Scripts\PlayerData.cs" />
+    <Compile Include="Assets\Scripts\appearanceSystem\hairProperties.cs" />
     <Compile Include="Assets\Scripts\TileInfoDisplay.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\ConnectTileAndData.cs" />
-    <Compile Include="Assets\Scripts\playerData.cs" />
-    <Compile Include="Assets\Scripts\hairProperties.cs" />
+    <Compile Include="Assets\Scripts\appearanceSystem\breastProperties.cs" />
+    <Compile Include="Assets\Scripts\appearanceSystem\assProperties.cs" />
+    <Compile Include="Assets\Scripts\testPP.cs" />
+    <Compile Include="Assets\Scripts\appearanceSystem\SexHoleProperties.cs" />
+    <Compile Include="Assets\Scripts\appearanceSystem\TorsoProperties.cs" />
+    <Compile Include="Assets\Scripts\appearanceSystem\RaceDatabase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
